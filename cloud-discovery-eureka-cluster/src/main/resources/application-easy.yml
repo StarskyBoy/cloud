@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: cloud-discovery-enreka-cluster
+
+security:
+  basic:
+    enabled: false # 启用身份认证
+  user:
+    name: cloud # 定义用户名
+    password: cloud # 定义密码
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8001/eureka/,http://127.0.0.1:8011/eureka/
+---
+#java -jar cloud-discovery-eureka-cluster.jar --spring.profiles.active=cluster1
+spring:
+  profiles: cluster1
+server:
+  port: 8001
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  instance:
+    hostname: 127.0.0.1
+---
+#java -jar cloud-discovery-eureka-cluster.jar --spring.profiles.active=cluster2
+spring:
+  profiles: cluster2
+server:
+  port: 8011
+eureka:
+ client:
+    registerWithEureka: false
+    fetchRegistry: false
+  instance:
+    hostname: 127.0.0.1

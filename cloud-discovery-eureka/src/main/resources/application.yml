@@ -1,0 +1,20 @@
+server:
+  port:   8001                 # 指定该Eureka-Server的端口
+
+spring:
+  application:
+    name: cloud-discovery-enreka
+
+security:
+  basic:
+    enabled: false # 启用身份认证
+  user:
+    name: cloud # 定义用户名
+    password: cloud # 定义密码
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8001/eureka/
