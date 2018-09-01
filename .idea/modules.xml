@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud.iml" filepath="$PROJECT_DIR$/cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-discovery-eureka/cloud-discovery-eureka.iml" filepath="$PROJECT_DIR$/cloud-discovery-eureka/cloud-discovery-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-discovery-eureka-cluster/cloud-discovery-eureka-cluster.iml" filepath="$PROJECT_DIR$/cloud-discovery-eureka-cluster/cloud-discovery-eureka-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-register-user/cloud-register-user.iml" filepath="$PROJECT_DIR$/cloud-register-user/cloud-register-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-simple-hello-world/cloud-simple-hello-world.iml" filepath="$PROJECT_DIR$/cloud-simple-hello-world/cloud-simple-hello-world.iml" />
+    </modules>
+  </component>
+</project>

@@ -9,10 +9,6 @@ security:
     name: cloud # 定义用户名
     password: cloud # 定义密码
 
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://127.0.0.1:8001/eureka/,http://127.0.0.1:8011/eureka/
 ---
 #java -jar cloud-discovery-eureka-cluster.jar --spring.profiles.active=cluster1
 spring:
@@ -20,9 +16,11 @@ spring:
 server:
   port: 8001
 eureka:
-  client:
   instance:
     hostname: 127.0.0.1
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8011/eureka/
 ---
 #java -jar cloud-discovery-eureka-cluster.jar --spring.profiles.active=cluster2
 spring:
@@ -30,6 +28,8 @@ spring:
 server:
   port: 8011
 eureka:
- client:
   instance:
     hostname: 127.0.0.1
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8001/eureka/

@@ -55,6 +55,7 @@
         <module>cloud-register-user</module>
         <module>cloud-discovery-eureka</module>
         <module>cloud-simple-hello-world</module>
+        <module>cloud-discovery-eureka-cluster</module>
     </modules>
 
     <build>
