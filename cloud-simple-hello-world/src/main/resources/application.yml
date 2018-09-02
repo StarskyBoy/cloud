@@ -1,5 +1,5 @@
 server:
-  port: 8000                  # 指定该Eureka-Client的端口
+  port: 8000                  # 指定该Eureka-Client的端口,8000
 
 spring:
   application:
