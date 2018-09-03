@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/cloud.iml" filepath="$PROJECT_DIR$/cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-discovery-eureka/cloud-discovery-eureka.iml" filepath="$PROJECT_DIR$/cloud-discovery-eureka/cloud-discovery-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-discovery-eureka-cluster/cloud-discovery-eureka-cluster.iml" filepath="$PROJECT_DIR$/cloud-discovery-eureka-cluster/cloud-discovery-eureka-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-metadata/cloud-register-consumer-metadata.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-metadata/cloud-register-consumer-metadata.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-user/cloud-register-user.iml" filepath="$PROJECT_DIR$/cloud-register-user/cloud-register-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-register-user-metadata/cloud-register-user-metadata.iml" filepath="$PROJECT_DIR$/cloud-register-user-metadata/cloud-register-user-metadata.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-simple-hello-world/cloud-simple-hello-world.iml" filepath="$PROJECT_DIR$/cloud-simple-hello-world/cloud-simple-hello-world.iml" />
     </modules>
   </component>

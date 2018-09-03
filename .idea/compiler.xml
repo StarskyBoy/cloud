@@ -8,7 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-discovery-eureka" />
         <module name="cloud-discovery-eureka-cluster" />
+        <module name="cloud-register-consumer-metadata" />
         <module name="cloud-register-user" />
+        <module name="cloud-register-user (1)" />
+        <module name="cloud-register-user-metadata" />
         <module name="cloud-simple-hello-world" />
       </profile>
     </annotationProcessing>
@@ -16,7 +19,10 @@
       <module name="cloud" target="1.8" />
       <module name="cloud-discovery-eureka" target="1.8" />
       <module name="cloud-discovery-eureka-cluster" target="1.8" />
+      <module name="cloud-register-consumer-metadata" target="1.8" />
       <module name="cloud-register-user" target="1.8" />
+      <module name="cloud-register-user (1)" target="1.8" />
+      <module name="cloud-register-user-metadata" target="1.8" />
       <module name="cloud-simple-hello-world" target="1.8" />
     </bytecodeTargetLevel>
   </component>

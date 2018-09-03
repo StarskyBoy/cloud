@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/cloud-discovery-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-simple-hello-world/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-register-user/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-metadata/pom.xml" />
       </list>
     </option>
   </component>
