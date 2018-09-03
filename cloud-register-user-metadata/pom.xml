@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.midou.cloud.register</groupId>
+	<artifactId>cloud-register-user-metadata</artifactId>
+	<version>${cloud.version}</version>
+	<packaging>jar</packaging>
+
+	<name>cloud-register-user-metadata</name>
+	<description>cloud-register-user-metadata</description>
+
+	<parent>
+		<groupId>com.midou.cloud</groupId>
+		<artifactId>cloud</artifactId>
+		<version>${cloud.version}</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
