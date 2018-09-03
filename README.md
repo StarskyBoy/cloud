@@ -1,9 +1,9 @@
 # cloud
 
 #### 项目介绍
-经过近段时间的折腾，对spring cloud有了一知半解，自己也创建了微信公众号：midouJava，就想分享一些Java资料，一开始也写了一些博客，不过转载的比较多，转载多了发现特别不爽，就想自己抒发点感情，就决定自己做一些spring cloud code demo及博客demo。
+经过近段时间的折腾，对spring cloud有一定的理解，自己也创建了微信公众号：米兜Java，就想分享一些Java资料，一开始也写了一些博客，不过转载的比较多，转载多了发现特别不爽，就想自己抒发点感情，就决定自己做一些spring cloud code demo及博客demo。
 
-本demo，可能倾向周立的Spring Cloud Edgware RELEASE版本，因为买了一本周老师的微服务架构实战（第2版），不过内容及想法必定来自个人改良，望各位指点纠正。
+本demo，可能倾向周立的Spring Cloud Edgware RELEASE版本，因为参考了周老师的微服务架构实战（第2版）书籍，不过内容及想法必定来自个人改良，望各位指点纠正。
 
 #### 软件架构
 软件架构说明
