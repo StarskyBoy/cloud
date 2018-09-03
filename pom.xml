@@ -31,6 +31,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
+        <!--健康监控-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
         <!--测试依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -56,6 +61,8 @@
         <module>cloud-discovery-eureka</module>
         <module>cloud-simple-hello-world</module>
         <module>cloud-discovery-eureka-cluster</module>
+        <module>cloud-register-user-metadata</module>
+        <module>cloud-register-consumer-metadata</module>
     </modules>
 
     <build>
