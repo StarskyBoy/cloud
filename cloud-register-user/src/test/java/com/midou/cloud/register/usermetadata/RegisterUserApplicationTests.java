@@ -1,4 +1,4 @@
-package com.midou.cloud.register.registeruser;
+package com.midou.cloud.register.usermetadata;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
