@@ -1,0 +1,15 @@
+server:
+  port:   8007                # 指定该Eureka-Client的端口
+
+spring:
+  application:
+    name: cloud-register-consumer-ribbon
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8001/eureka/
+  instance:
+    prefer-ip-address: true
+
+
