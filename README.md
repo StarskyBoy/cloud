@@ -1,7 +1,7 @@
 <h2 align="center">Cloud Microservice Architecture</h2> 
 <p align="center">
   <img src="https://img.shields.io/badge/Spring%20Cloud-Edgware.RELEASE-orange.svg" alt="Coverage Status">
-  <img src="https://img.shields.io/badge/Spring%20Boot-1.5.9-blue.svg" alt="Downloads">
+  <img src="https://img.shields.io/badge/Spring%20Boot-1.5.9.RELEASE-blue.svg" alt="Downloads">
 </p>
 
 #### 简介
