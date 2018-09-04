@@ -13,22 +13,23 @@
 软件架构说明
 
 
-#### 安装教程
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-
 #### 贡献者
 
 1. StarskyBoy
+
+
+#### 源码获取
+
+1. gitee：https://gitee.com/StarskyBoy 
+2. github：https://github.com/StarskyBoy
+3. csdn(待更新)：https://blog.csdn.net/StarskyBoy
 
 
 #### 博客
 
 1. 公众号（米兜Java）：一个注在共享、交流的Java学习平台。
 2. 微信号（midouJava）：一个喜欢共享、交流的boy。
+3. csdn(待更新)：https://blog.csdn.net/StarskyBoy
 
 | 公众号                 | 微信号                 |
 | --------------------- | --------------------- |
