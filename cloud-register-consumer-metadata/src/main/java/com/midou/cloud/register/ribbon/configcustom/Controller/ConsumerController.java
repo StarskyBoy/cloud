@@ -1,4 +1,4 @@
-package com.midou.cloud.register.ribbon.Controller;
+package com.midou.cloud.register.ribbon.configcustom.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
