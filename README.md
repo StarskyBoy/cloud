@@ -15,11 +15,11 @@
 
 #### 贡献者
 
-1. StarskyBoy
+- StarskyBoy
 
 #### 交流群
 
-米兜Java共享交流群：727542913
+- <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5zWEvg5"> 727542913
 
 
 #### 源码
@@ -38,4 +38,3 @@
 | 公众号                 | 微信号                 |
 | --------------------- | --------------------- |
 | ![](https://images.gitee.com/uploads/images/2018/0903/082319_bae6574f_2060340.jpeg "米兜Java.jpg") | ![](https://images.gitee.com/uploads/images/2018/0903/082200_00c55dfb_2060340.jpeg "个人微信.jpg") |
-
