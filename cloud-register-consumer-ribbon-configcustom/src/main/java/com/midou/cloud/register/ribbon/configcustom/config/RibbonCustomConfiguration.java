@@ -1,4 +1,4 @@
-package com.midou.cloud.register.ribbon.without.eureka.config;
+package com.midou.cloud.register.ribbon.configcustom.config;
 
 import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.RandomRule;

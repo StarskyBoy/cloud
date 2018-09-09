@@ -1,4 +1,4 @@
-package com.midou.cloud.register.ribbon.without.eureka.config;
+package com.midou.cloud.register.ribbon.configcustom.config;
 
 import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.context.annotation.Configuration;
