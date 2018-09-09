@@ -1,4 +1,4 @@
-package com.midou.cloud.register.ribbon.without.eureka.Controller;
+package com.midou.cloud.register.consumer.ribbon.Controller;
 
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
