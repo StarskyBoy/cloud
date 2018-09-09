@@ -8,7 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-discovery-eureka" />
         <module name="cloud-discovery-eureka-cluster" />
+        <module name="cloud-register-consumer-feign" />
         <module name="cloud-register-consumer-metadata" />
+        <module name="cloud-register-consumer-ribbon" />
+        <module name="cloud-register-consumer-ribbon-configcustom" />
+        <module name="cloud-register-consumer-ribbon-without-eureka" />
         <module name="cloud-register-user" />
         <module name="cloud-register-user (1)" />
         <module name="cloud-register-user-metadata" />
@@ -19,7 +23,12 @@
       <module name="cloud" target="1.8" />
       <module name="cloud-discovery-eureka" target="1.8" />
       <module name="cloud-discovery-eureka-cluster" target="1.8" />
+      <module name="cloud-register-consumer-feign" target="1.8" />
       <module name="cloud-register-consumer-metadata" target="1.8" />
+      <module name="cloud-register-consumer-ribbon" target="1.8" />
+      <module name="cloud-register-consumer-ribbon (1)" target="1.8" />
+      <module name="cloud-register-consumer-ribbon-configcustom" target="1.8" />
+      <module name="cloud-register-consumer-ribbon-without-eureka" target="1.8" />
       <module name="cloud-register-user" target="1.8" />
       <module name="cloud-register-user (1)" target="1.8" />
       <module name="cloud-register-user-metadata" target="1.8" />

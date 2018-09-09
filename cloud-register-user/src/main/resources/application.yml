@@ -1,5 +1,5 @@
 server:
-  port:               # 指定该Eureka-Client的端口,8002
+  port: 8002             # 指定该Eureka-Client的端口,8002
 
 spring:
   application:

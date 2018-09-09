@@ -11,6 +11,9 @@
         <option value="$PROJECT_DIR$/cloud-simple-hello-world/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-register-user/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-register-consumer-metadata/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-ribbon-configcustom/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign/pom.xml" />
       </list>
     </option>
   </component>
