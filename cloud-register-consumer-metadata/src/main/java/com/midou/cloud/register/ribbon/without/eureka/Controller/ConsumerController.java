@@ -1,4 +1,4 @@
-package com.midou.cloud.register.ribbon.configcustom.Controller;
+package com.midou.cloud.register.ribbon.without.eureka.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
