@@ -19,6 +19,7 @@
 	</parent>
 
 	<dependencies>
+		<!--服务发现-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
