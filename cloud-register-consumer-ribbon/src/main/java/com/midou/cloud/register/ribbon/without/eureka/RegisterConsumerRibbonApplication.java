@@ -1,4 +1,4 @@
-package com.midou.cloud.register.ribbon.configcustom;
+package com.midou.cloud.register.ribbon.without.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

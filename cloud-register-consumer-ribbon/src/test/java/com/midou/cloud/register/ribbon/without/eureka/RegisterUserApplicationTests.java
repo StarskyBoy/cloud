@@ -1,4 +1,4 @@
-package com.midou.cloud.register.ribbon.configcustom;
+package com.midou.cloud.register.ribbon.without.eureka;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
