@@ -1,0 +1,35 @@
+server:
+  port: 8014
+
+spring:
+  application:
+    name: cloud-register-user-with-auth
+
+# mysql 属性配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test
+    username: cloud
+    password: cloud
+  jpa:
+    hibernate:
+      #ddl-auto: create #ddl-auto:设为create表示每次都重新建表
+      ddl-auto: update #ddl-auto:设为update表示每次都不会重新建表
+    show-sql: true
+
+# 打印日志
+logging:
+  level:
+    root: DEBUG
+    org.hibernate: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: DEBUG
+    org.hibernate.type.descriptor.sql.BasicExtractor: DEBUG
+    com.springms: DEBUG
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8001/eureka/
+  instance:
+    prefer-ip-address: true
+
