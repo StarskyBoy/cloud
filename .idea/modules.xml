@@ -6,12 +6,16 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-discovery-eureka/cloud-discovery-eureka.iml" filepath="$PROJECT_DIR$/cloud-discovery-eureka/cloud-discovery-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-discovery-eureka-cluster/cloud-discovery-eureka-cluster.iml" filepath="$PROJECT_DIR$/cloud-discovery-eureka-cluster/cloud-discovery-eureka-cluster.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-feign/cloud-register-consumer-feign.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-feign/cloud-register-consumer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-feign-custom/cloud-register-consumer-feign-custom.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-feign-custom/cloud-register-consumer-feign-custom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-feign-manual/cloud-register-consumer-feign-manual.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-feign-manual/cloud-register-consumer-feign-manual.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-metadata/cloud-register-consumer-metadata.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-metadata/cloud-register-consumer-metadata.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-ribbon/cloud-register-consumer-ribbon.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-ribbon/cloud-register-consumer-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-configcustom/cloud-register-consumer-ribbon-configcustom.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-ribbon-configcustom/cloud-register-consumer-ribbon-configcustom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/cloud-register-consumer-ribbon-hystrix.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/cloud-register-consumer-ribbon-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-without-eureka/cloud-register-consumer-ribbon-without-eureka.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-ribbon-without-eureka/cloud-register-consumer-ribbon-without-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-user/cloud-register-user.iml" filepath="$PROJECT_DIR$/cloud-register-user/cloud-register-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-user-metadata/cloud-register-user-metadata.iml" filepath="$PROJECT_DIR$/cloud-register-user-metadata/cloud-register-user-metadata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-register-user-with-auth/cloud-register-user-with-auth.iml" filepath="$PROJECT_DIR$/cloud-register-user-with-auth/cloud-register-user-with-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-simple-hello-world/cloud-simple-hello-world.iml" filepath="$PROJECT_DIR$/cloud-simple-hello-world/cloud-simple-hello-world.iml" />
     </modules>
   </component>

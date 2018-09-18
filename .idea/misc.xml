@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/cloud-register-consumer-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-register-consumer-ribbon-configcustom/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-register-consumer-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-manual/pom.xml" />
       </list>
     </option>
   </component>
