@@ -12,8 +12,9 @@ eureka:
   instance:
     prefer-ip-address: true
 
+#将Feign接口的日志级别设置成DEBUG，因为Feign的Logger.Level只对DEBUG作出响应。
 logging:
   level:
-   com.midou.cloud.register.consumer.feign.logger.dao.UserFeignClient: DEBUG # 将Feign接口的日志级别设置成DEBUG，因为Feign的Logger.Level只对DEBUG作出响应。
+   com.midou.cloud.register.consumer.feign.logger.dao.UserFeignClient: DEBUG 
 
 
