@@ -75,6 +75,12 @@
         <module>cloud-register-consumer-ribbon-configcustom</module>
         <module>cloud-register-consumer-ribbon-without-eureka</module>
         <module>cloud-register-consumer-feign</module>
+        <module>cloud-register-consumer-feign-custom</module>
+        <module>cloud-register-user-with-auth</module>
+        <module>cloud-register-consumer-feign-manual</module>
+        <module>cloud-register-consumer-ribbon-hystrix</module>
+        <module>cloud-register-consumer-feign-logger</module>
+        <module>cloud-register-consumer-feign-hystrix-fallback</module>
     </modules>
 
     <build>
