@@ -1,6 +1,7 @@
 server:
   port: 8019
 
+#Hystrix Dashboard可视化监控数据
 spring:
   application:
     name: cloud-hystrix-dashboard
