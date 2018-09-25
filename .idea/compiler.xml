@@ -8,8 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-discovery-eureka" />
         <module name="cloud-discovery-eureka-cluster" />
+        <module name="cloud-hystrix-dashboard" />
         <module name="cloud-register-consumer-feign" />
         <module name="cloud-register-consumer-feign-custom" />
+        <module name="cloud-register-consumer-feign-fallback" />
+        <module name="cloud-register-consumer-feign-hystrix-fallback" />
+        <module name="cloud-register-consumer-feign-hystrix-fallback-factory" />
+        <module name="cloud-register-consumer-feign-logger" />
         <module name="cloud-register-consumer-feign-manual" />
         <module name="cloud-register-consumer-metadata" />
         <module name="cloud-register-consumer-ribbon" />
@@ -17,7 +22,6 @@
         <module name="cloud-register-consumer-ribbon-hystrix" />
         <module name="cloud-register-consumer-ribbon-without-eureka" />
         <module name="cloud-register-user" />
-        <module name="cloud-register-user (1)" />
         <module name="cloud-register-user-metadata" />
         <module name="cloud-register-user-with-auth" />
         <module name="cloud-simple-hello-world" />
@@ -27,8 +31,13 @@
       <module name="cloud" target="1.8" />
       <module name="cloud-discovery-eureka" target="1.8" />
       <module name="cloud-discovery-eureka-cluster" target="1.8" />
+      <module name="cloud-hystrix-dashboard" target="1.8" />
       <module name="cloud-register-consumer-feign" target="1.8" />
       <module name="cloud-register-consumer-feign-custom" target="1.8" />
+      <module name="cloud-register-consumer-feign-fallback" target="1.8" />
+      <module name="cloud-register-consumer-feign-hystrix-fallback" target="1.8" />
+      <module name="cloud-register-consumer-feign-hystrix-fallback-factory" target="1.8" />
+      <module name="cloud-register-consumer-feign-logger" target="1.8" />
       <module name="cloud-register-consumer-feign-manual" target="1.8" />
       <module name="cloud-register-consumer-metadata" target="1.8" />
       <module name="cloud-register-consumer-ribbon" target="1.8" />

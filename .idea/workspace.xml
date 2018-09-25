@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5409e0cd-0e30-4ec8-b60e-df74be45475a" name="Default" comment="cloud item">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_1_4_0_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_1_4_0_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cloud-register-consumer-feign/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/cloud-register-consumer-feign/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/pom.xml" afterPath="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/RegisterConsumerFeignHystrixFallBackApplication.java" afterPath="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/RegisterConsumerFeignHystrixFallBackApplication.java" />
+      <change beforePath="$PROJECT_DIR$/cloud-register-consumer-feign-logger/src/main/java/com/midou/cloud/register/consumer/feign/logger/dao/UserFeignClient.java" afterPath="$PROJECT_DIR$/cloud-register-consumer-feign-logger/src/main/java/com/midou/cloud/register/consumer/feign/logger/dao/UserFeignClient.java" />
       <change beforePath="$PROJECT_DIR$/cloud-register-user/pom.xml" afterPath="$PROJECT_DIR$/cloud-register-user/pom.xml" />
       <change beforePath="$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/controller/UserController.java" afterPath="$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/controller/UserController.java" />
       <change beforePath="$PROJECT_DIR$/cloud.iml" afterPath="$PROJECT_DIR$/cloud.iml" />
@@ -29,6 +35,11 @@
     <ignored path="$PROJECT_DIR$/cloud-register-user-with-auth/target/" />
     <ignored path="$PROJECT_DIR$/cloud-register-consumer-feign-manual/target/" />
     <ignored path="$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-register-consumer-feign-logger/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-register-consumer-feign-fallback/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-hystrix-dashboard/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,104 +65,52 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+    <leaf>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/pom.xml">
+        <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="32" selection-end-column="21" />
+            <state relative-caret-position="270">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="24" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterConsumerRibbonHystrixApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/src/main/java/com/midou/cloud/register/consumer/ribbon/hystrix/RegisterConsumerRibbonHystrixApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsumerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/src/main/java/com/midou/cloud/register/consumer/ribbon/hystrix/Controller/ConsumerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-register-user/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#720#721#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2400">
-              <caret line="80" column="54" lean-forward="false" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="54" />
+            <state relative-caret-position="67">
+              <caret line="84" column="39" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cloud-register-consumer-ribbon-hystrix.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/cloud-register-consumer-ribbon-hystrix.iml">
+      <file leaf-file-name="HystrixDashboardApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/src/test/java/com/midou/cloud/hystrix/dashboard/HystrixDashboardApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HystrixDashboardApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/java/com/midou/cloud/hystrix/dashboard/HystrixDashboardApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -162,8 +121,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -196,36 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/mapper/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/service/UserService.java" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign/src/main/java/com/midou/cloud/register/consumer/feign/User.java" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign/src/main/java/com/midou/cloud/register/consumer/feign/entity.java" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign/src/main/java/com/midou/cloud/register/consumer/feign/entity/User.java" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign/src/main/java/com/midou/cloud/register/consumer/feign/RegisterConsumerFeignApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign/src/main/java/com/midou/cloud/register/consumer/feign/Controller/ConsumerController.java" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign/src/main/java/com/midou/cloud/register/consumer/feign/dao/UserFeignClient.java" />
-        <option value="$PROJECT_DIR$/cloud-discovery-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-discovery-eureka-cluster/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-register-user/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-ribbon/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-ribbon-configcustom/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-ribbon-without-eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-metadata/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-register-user-metadata/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-register-user/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-custom/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-custom/src/main/java/com/midou/cloud/register/consumer/feign/config/FeignConfiguration.java" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-custom/src/main/java/com/midou/cloud/register/consumer/feign/impl/UserFeignClient.java" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-custom/src/main/java/com/midou/cloud/register/consumer/feign/custom/impl/UserFeignClient.java" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-custom/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-register-user-with-auth/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-register-user-with-auth/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-register-user-with-auth/src/main/java/com/midou/cloud/register/user/with/auth/service/UserRepository.java" />
-        <option value="$PROJECT_DIR$/cloud-register-user-with-auth/src/main/java/com/midou/cloud/register/user/with/auth/RegisterUserWithAuthApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-register-user-with-auth/src/main/java/com/midou/cloud/register/user/with/auth/service/impl/CustomUserDetailsService.java" />
-        <option value="$PROJECT_DIR$/cloud-register-user-with-auth/src/main/java/com/midou/cloud/register/user/with/auth/service/impl/SecurityUser.java" />
-        <option value="$PROJECT_DIR$/cloud-register-user-with-auth/src/main/java/com/midou/cloud/register/user/with/auth/controller/UserController.java" />
         <option value="$PROJECT_DIR$/cloud-register-user-with-auth/src/main/java/com/midou/cloud/register/user/with/auth/entity/User.java" />
         <option value="$PROJECT_DIR$/cloud-register-user-with-auth/src/main/java/com/midou/cloud/register/user/with/auth/mapper/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/cloud-register-user-with-auth/src/main/java/com/midou/cloud/register/user/with/auth/config/WebSecurityConfig.java" />
@@ -237,7 +166,6 @@
         <option value="$PROJECT_DIR$/cloud-register-consumer-feign-manual/src/main/java/com/midou/cloud/register/consumer/feign/manual/RegisterConsumerFeignManualApplication.java" />
         <option value="$PROJECT_DIR$/cloud-register-consumer-feign-manual/src/main/java/com/midou/cloud/register/consumer/feign/manual/entity/User.java" />
         <option value="$PROJECT_DIR$/cloud-register-consumer-feign-manual/src/main/java/com/midou/cloud/register/consumer/feign/manual/Controller/ConsumerController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/src/main/java/com/midou/cloud/register/consumer/ribbon5555555555555/RegisterConsumerRibbonApplication.java" />
@@ -247,6 +175,37 @@
         <option value="$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/controller/UserController.java" />
         <option value="$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/src/main/java/com/midou/cloud/register/consumer/ribbon/hystrix/RegisterConsumerRibbonHystrixApplication.java" />
         <option value="$PROJECT_DIR$/cloud-register-consumer-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-logger/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-logger/src/main/java/com/midou/cloud/register/consumer/feign/logger/RegisterConsumerFeignLoggerApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-logger/src/main/java/com/midou/cloud/register/consumer/feign/logger/Controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-logger/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-logger/src/main/java/com/midou/cloud/register/consumer/feign/logger/config/FeignLogConfiguration.java" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign/src/main/java/com/midou/cloud/register/consumer/feign/dao/UserFeignClient.java" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-fallback/src/main/java/com/midou/cloud/register/consumer/feign/RegisterConsumerFeignFallBackApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-fallback/src/main/java/com/midou/cloud/register/consumer/feignttttttttt/RegisterConsumerFeignFallBackApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-fallback/src/main/java/com/midou/cloud/register/consumer/feign/fallback/RegisterConsumerFeignFallBackApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-fallback/src/main/java/com/midou/cloud/register/consumer/feign/fallback/entity/User.java" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-fallback/src/main/java/com/midou/cloud/register/consumer/feign/fallback/dao/fallback/FeignClientFallback.java" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-fallback/src/main/java/com/midou/cloud/register/consumer/feign/fallback/dao/UserFeignClient.java" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-fallback/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/dao/UserFeignClient.java" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-fallback/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/RegisterConsumerFeignHystrixFallBackApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-fallback/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-fallback/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-logger/src/main/java/com/midou/cloud/register/consumer/feign/logger/dao/UserFeignClient.java" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/factory/entity/User.java" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/factory/RegisterConsumerFeignHystrixFallbackFactoryApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/factory/dao/fallback/FeignClientFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/factory/Controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/factory/dao/UserFeignClient.java" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/RegisterConsumerFeignHystrixFallBackApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/java/com/midou/cloud/hystrix/dashboard/HystrixDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard/src/test/java/com/midou/cloud/hystrix/dashboard/HystrixDashboardApplicationTests.java" />
       </list>
     </option>
   </component>
@@ -344,7 +303,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -355,25 +313,55 @@
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-register-consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-register-consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-register-consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-register-consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -381,171 +369,34 @@
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-register-consumer-ribbon-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-register-consumer-ribbon-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-register-consumer-ribbon-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-register-consumer-ribbon-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-register-consumer-ribbon-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-register-consumer-ribbon-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-commons:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-commons:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-commons-1.3.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-commons:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-commons-1.3.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-commons:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-commons-1.3.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-commons:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-commons-1.3.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="loadbalancer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.security:spring-security-core:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.security:spring-security-core:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-security-core-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.security:spring-security-core:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-security-core-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.security:spring-security-core:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-security-core-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="authentication" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.security:spring-security-core:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-security-core-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="authentication" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.security:spring-security-core:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-security-core-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.security:spring-security-core:4.2.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-security-core-4.2.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="userdetails" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -563,13 +414,17 @@
     <property name="project.structure.proportion" value="0.10303752" />
     <property name="project.structure.side.proportion" value="0.44090307" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-register-consumer-feign-manual" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-hystrix-dashboard" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.midou.cloud.register.consumer.feign.hystrix.fallback.factory.dao.fallback" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.midou.cloud.register.consumer.ribbon.hystrix.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\personal\spring cloud\code\cloud\cloud-register-consumer-feign-logger\src\main\java\com\midou\cloud\register\consumer\feign\logger\config" />
       <recent name="E:\personal\spring cloud\code\cloud\cloud-discovery-eureka-cluster\src\main\resources" />
     </key>
   </component>
@@ -589,9 +444,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.32099447" />
+    <option name="contentProportion" value="0.39281768" />
   </component>
-  <component name="RunManager" selected="Spring Boot.RegisterConsumerRibbonHystrixApplication">
+  <component name="RunManager" selected="Spring Boot.HystrixDashboardApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -657,10 +512,74 @@
       <module name="cloud-discovery-eureka-cluster" />
       <envs />
     </configuration>
+    <configuration name="HystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.midou.cloud.hystrix.dashboard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.hystrix.dashboard.HystrixDashboardApplication" />
+      <module name="cloud-hystrix-dashboard" />
+      <envs />
+    </configuration>
     <configuration name="RegisterConsumerFeignApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.consumer.feign.RegisterConsumerFeignApplication" />
       <module name="cloud-register-consumer-feign" />
+      <envs />
+    </configuration>
+    <configuration name="RegisterConsumerFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.consumer.feign.custom.RegisterConsumerFeignApplication" />
+      <module name="cloud-register-consumer-feign-custom" />
+      <envs />
+    </configuration>
+    <configuration name="RegisterConsumerFeignHystrixFallBackApplication " type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.midou.cloud.register.consumer.feign.hystrix.fallback.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.consumer.feign.hystrix.fallback.RegisterConsumerFeignHystrixFallBackApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="cloud-register-consumer-feign-hystrix-fallback" />
+      <envs />
+    </configuration>
+    <configuration name="RegisterConsumerFeignHystrixFallBackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.consumer.feign.hystrix.fallback.RegisterConsumerFeignHystrixFallBackApplication" />
+      <module name="cloud-register-consumer-feign-fallback" />
+      <envs />
+    </configuration>
+    <configuration name="RegisterConsumerFeignHystrixFallBackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.midou.cloud.register.consumer.feign.hystrix.fallback.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.consumer.feign.hystrix.fallback.RegisterConsumerFeignHystrixFallBackApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="cloud-register-consumer-feign-hystrix-fallback" />
+      <envs />
+    </configuration>
+    <configuration name="RegisterConsumerFeignHystrixFallbackFactoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.midou.cloud.register.consumer.feign.hystrix.fallback.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.consumer.feign.hystrix.fallback.factory.RegisterConsumerFeignHystrixFallbackFactoryApplication" />
+      <module name="cloud-register-consumer-feign-hystrix-fallback-factory" />
+      <envs />
+    </configuration>
+    <configuration name="RegisterConsumerFeignLoggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.consumer.feign.logger.RegisterConsumerFeignLoggerApplication" />
+      <module name="cloud-register-consumer-feign-logger" />
       <envs />
     </configuration>
     <configuration name="RegisterConsumerFeignMApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -669,13 +588,8 @@
       <module name="cloud-register-consumer-feign-manual" />
       <envs />
     </configuration>
-    <configuration name="RegisterConsumerFeignManualApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.midou.cloud.register.consumer.feign.manual.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="RegisterConsumerFeignManualApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.consumer.feign.manual.RegisterConsumerFeignManualApplication" />
       <module name="cloud-register-consumer-feign-manual" />
       <envs />
@@ -700,13 +614,8 @@
       <module name="cloud-register-consumer-ribbon-configcustom" />
       <envs />
     </configuration>
-    <configuration name="RegisterConsumerRibbonHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.midou.cloud.register.consumer.ribbon.hystrix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="RegisterConsumerRibbonHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.consumer.ribbon.hystrix.RegisterConsumerRibbonHystrixApplication" />
       <module name="cloud-register-consumer-ribbon-hystrix" />
       <envs />
@@ -734,13 +643,8 @@
       <module name="cloud-register-user-metadata" />
       <envs />
     </configuration>
-    <configuration name="RegisterUserWithAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.midou.cloud.register.user.with.auth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="RegisterUserWithAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.user.with.auth.RegisterUserWithAuthApplication" />
       <module name="cloud-register-user-with-auth" />
       <envs />
@@ -778,7 +682,7 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="13">
+    <list size="19">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerRibbonConfigCustomApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.DiscoveryEurekaClusterApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.RegisterUserMetadataApplication" />
@@ -787,19 +691,25 @@
       <item index="5" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignMApplication" />
       <item index="6" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerMetadataApplication" />
       <item index="7" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignApplication (1)" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.RegisterUserApplication" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.RegisterUserWithAuthApplication" />
-      <item index="10" class="java.lang.String" itemvalue="Spring Boot.DiscoveryEurekaApplication" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.RegisterUserWithAuthApplication" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignApplication" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignHystrixFallBackApplication" />
       <item index="11" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignManualApplication" />
       <item index="12" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerRibbonHystrixApplication" />
+      <item index="13" class="java.lang.String" itemvalue="Spring Boot.RegisterUserApplication" />
+      <item index="14" class="java.lang.String" itemvalue="Spring Boot.DiscoveryEurekaApplication" />
+      <item index="15" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignHystrixFallbackFactoryApplication" />
+      <item index="16" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignHystrixFallBackApplication " />
+      <item index="17" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignLoggerApplication" />
+      <item index="18" class="java.lang.String" itemvalue="Spring Boot.HystrixDashboardApplication" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.RegisterUserApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerRibbonHystrixApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.DiscoveryEurekaApplication" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignManualApplication" />
-        <item index="4" class="java.lang.String" itemvalue="Spring Boot.RegisterUserWithAuthApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.HystrixDashboardApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignHystrixFallBackApplication " />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.RegisterUserApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.DiscoveryEurekaApplication" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignHystrixFallbackFactoryApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -858,7 +768,14 @@
       <workItem from="1537066683796" duration="6217000" />
       <workItem from="1537153291602" duration="1094000" />
       <workItem from="1537230899127" duration="77000" />
-      <workItem from="1537266205739" duration="294000" />
+      <workItem from="1537266205739" duration="2942000" />
+      <workItem from="1537270823835" duration="26000" />
+      <workItem from="1537537257708" duration="3038000" />
+      <workItem from="1537583273236" duration="94000" />
+      <workItem from="1537710713532" duration="4040000" />
+      <workItem from="1537793018676" duration="8591000" />
+      <workItem from="1537834806251" duration="65000" />
+      <workItem from="1537871642256" duration="2797000" />
     </task>
     <servers />
   </component>
@@ -895,14 +812,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104984000" />
+    <option name="totallyTimeSpent" value="126283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1028" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3709503" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.50431967" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17926566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -911,17 +829,17 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905548" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.49568033" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46627218" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4189349" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.57159764" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4189349" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5218935" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27915767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4136069" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -932,15 +850,15 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46627218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3709503" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.50431967" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17926566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -950,22 +868,22 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905548" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.49568033" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37633136" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5727811" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4189349" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4189349" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5218935" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2985961" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39956802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46627218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -997,273 +915,118 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/RegisterUserApplication.java">
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/cloud-register-consumer-ribbon-hystrix.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-custom/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cloud-register-user/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-custom/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        <state relative-caret-position="360">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-custom/src/main/java/com/midou/cloud/register/consumer/feign/custom/Controller/ConsumerController.java">
+    <entry file="file://$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="35" />
+        <state relative-caret-position="540">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-custom/src/main/java/com/midou/cloud/register/consumer/feign/custom/config/FeignConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-logger/cloud-register-consumer-feign.iml" />
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-logger/cloud-register-consumer-feign-logger.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-logger/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-logger/src/main/java/com/midou/cloud/register/consumer/feign/logger/Controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-logger/src/main/java/com/midou/cloud/register/consumer/feign/logger/config/FeignLogConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-register-user/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-custom/src/main/java/com/midou/cloud/register/consumer/feign/custom/RegisterConsumerFeignApplication.java">
+    <entry file="file://$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-custom/src/main/java/com/midou/cloud/register/consumer/feign/custom/impl/UserFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-user-with-auth/cloud-register-user.iml" />
-    <entry file="jar://D:/Program Files/Java/jdk1.8/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="143" column="17" lean-forward="false" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3690">
-          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="113" column="60" lean-forward="true" selection-start-line="113" selection-start-column="60" selection-end-line="113" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-user-with-auth/src/main/java/com/midou/cloud/register/user/with/auth/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="300">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.9.RELEASE/spring-data-commons-1.13.9.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1167">
-          <caret line="53" column="6" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-user-with-auth/src/main/java/com/midou/cloud/register/user/with/auth/service/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-user-with-auth/src/main/java/com/midou/cloud/register/user/with/auth/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-user-with-auth/src/main/java/com/midou/cloud/register/user/with/auth/mapper/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-user-with-auth/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-user-with-auth/src/main/java/com/midou/cloud/register/user/with/auth/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-user-with-auth/src/main/java/com/midou/cloud/register/user/with/auth/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-user-with-auth/src/main/java/com/midou/cloud/register/user/with/auth/service/impl/SecurityUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="71" column="2" lean-forward="true" selection-start-line="71" selection-start-column="2" selection-end-line="81" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-user-with-auth/src/main/java/com/midou/cloud/register/user/with/auth/service/impl/CustomUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-user-with-auth/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-manual/cloud-register-consumer-feign.iml" />
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-manual/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/mapper/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-manual/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/mapper/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-manual/src/main/java/com/midou/cloud/register/consumer/feign/manual/RegisterConsumerFeignManualApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-manual/src/main/java/com/midou/cloud/register/consumer/feign/manual/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-user-with-auth/src/main/java/com/midou/cloud/register/user/with/auth/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="35" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign/src/main/java/com/midou/cloud/register/consumer/feign/dao/UserFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="330">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign/src/main/java/com/midou/cloud/register/consumer/feign/Controller/ConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="15" />
+        <state relative-caret-position="300">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign/src/main/java/com/midou/cloud/register/consumer/feign/RegisterConsumerFeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-manual/src/main/java/com/midou/cloud/register/consumer/feign/manual/dao/UserFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-manual/src/main/java/com/midou/cloud/register/consumer/feign/manual/Controller/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-discovery-eureka/src/main/java/com/midou/cloud/eureka/discoveryeureka/DiscoveryEurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-discovery-eureka/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign/src/main/java/com/midou/cloud/register/consumer/feign/dao/UserFeignClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="32" />
+          <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-user-with-auth/src/main/java/com/midou/cloud/register/user/with/auth/RegisterUserWithAuthApplication.java">
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-fallback/cloud-register-consumer-feign.iml" />
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/cloud-register-consumer-ribbon.iml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.3.0.RELEASE/spring-cloud-commons-1.3.0.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/src/main/java/com/midou/cloud/register/consumer/ribbon/hystrix/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="207">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1271,22 +1034,125 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/cloud-register-consumer-feign-fallback.iml" />
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-logger/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/cloud-register-consumer-feign.iml" />
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-logger/src/main/java/com/midou/cloud/register/consumer/feign/logger/RegisterConsumerFeignLoggerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-logger/src/main/java/com/midou/cloud/register/consumer/feign/logger/dao/UserFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/cloud-register-consumer-ribbon-hystrix.iml">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/Controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/factory/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/dao/UserFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/dao/fallback/FeignClientFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/factory/RegisterConsumerFeignHystrixFallbackFactoryApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/factory/dao/fallback/FeignClientFallbackFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="32" selection-end-column="21" />
+        <state relative-caret-position="240">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/factory/Controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/factory/dao/UserFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/src/main/java/com/midou/cloud/register/consumer/ribbon/hystrix/Controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1299,7 +1165,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-user/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/RegisterConsumerFeignHystrixFallBackApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/cloud-register-user.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1307,44 +1197,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/cloud-register-user (1).iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2400">
-          <caret line="80" column="54" lean-forward="false" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="54" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/java/com/midou/cloud/register/user/mapper/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/java/com/midou/cloud/hystrix/dashboard/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/src/test/java/com/midou/cloud/hystrix/dashboard/HystrixDashboardApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/java/com/midou/cloud/hystrix/dashboard/HystrixDashboardApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#720#721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/src/main/java/com/midou/cloud/register/consumer/ribbon/hystrix/Controller/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        <state relative-caret-position="150">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-feign/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="84" column="39" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1401,7 +1313,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|cloud-register-consumer-ribbon-hystrix</last-edited>
+          <last-edited>Spring|cloud-hystrix-dashboard</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
