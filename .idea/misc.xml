@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-hystrix-turbine/pom.xml" />
       </list>
     </option>
   </component>

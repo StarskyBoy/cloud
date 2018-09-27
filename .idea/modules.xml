@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-discovery-eureka/cloud-discovery-eureka.iml" filepath="$PROJECT_DIR$/cloud-discovery-eureka/cloud-discovery-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-discovery-eureka-cluster/cloud-discovery-eureka-cluster.iml" filepath="$PROJECT_DIR$/cloud-discovery-eureka-cluster/cloud-discovery-eureka-cluster.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-hystrix-dashboard/cloud-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/cloud-hystrix-dashboard/cloud-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-hystrix-turbine/cloud-hystrix-turbine.iml" filepath="$PROJECT_DIR$/cloud-hystrix-turbine/cloud-hystrix-turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-feign/cloud-register-consumer-feign.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-feign/cloud-register-consumer-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-feign-custom/cloud-register-consumer-feign-custom.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-feign-custom/cloud-register-consumer-feign-custom.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/cloud-register-consumer-feign-hystrix-fallback.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/cloud-register-consumer-feign-hystrix-fallback.iml" />
