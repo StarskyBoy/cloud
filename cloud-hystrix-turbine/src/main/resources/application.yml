@@ -1,0 +1,18 @@
+server:
+  port: 8020
+
+spring:
+  application:
+    name: cloud-hystrix-turbine
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8001/eureka/
+  instance:
+    prefer-ip-address: true
+turbine:
+  app-config: cloud-register-consumer-ribbon-hystrix,cloud-register-consumer-feign-hystrix-fallback
+  cluster-name-expression: "'default'"
+
+
