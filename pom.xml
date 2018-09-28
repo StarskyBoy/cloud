@@ -82,6 +82,10 @@
         <module>cloud-register-consumer-feign-logger</module>
         <module>cloud-register-consumer-feign-hystrix-fallback</module>
         <module>cloud-register-consumer-feign-hystrix-fallback-factory</module>
+        <module>cloud-hystrix-dashboard</module>
+        <module>cloud-hystrix-turbine</module>
+        <module>cloud-hystrix-turbine-mq</module>
+        <module>cloud-register-consumer-ribbon-hystrix-turbine-mq</module>
     </modules>
 
     <build>
