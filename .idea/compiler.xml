@@ -10,6 +10,7 @@
         <module name="cloud-discovery-eureka-cluster" />
         <module name="cloud-hystrix-dashboard" />
         <module name="cloud-hystrix-turbine" />
+        <module name="cloud-hystrix-turbine-mq" />
         <module name="cloud-register-consumer-feign" />
         <module name="cloud-register-consumer-feign-custom" />
         <module name="cloud-register-consumer-feign-fallback" />
@@ -21,6 +22,7 @@
         <module name="cloud-register-consumer-ribbon" />
         <module name="cloud-register-consumer-ribbon-configcustom" />
         <module name="cloud-register-consumer-ribbon-hystrix" />
+        <module name="cloud-register-consumer-ribbon-hystrix-turbine-mq" />
         <module name="cloud-register-consumer-ribbon-without-eureka" />
         <module name="cloud-register-user" />
         <module name="cloud-register-user-metadata" />
@@ -34,6 +36,7 @@
       <module name="cloud-discovery-eureka-cluster" target="1.8" />
       <module name="cloud-hystrix-dashboard" target="1.8" />
       <module name="cloud-hystrix-turbine" target="1.8" />
+      <module name="cloud-hystrix-turbine-mq" target="1.8" />
       <module name="cloud-register-consumer-feign" target="1.8" />
       <module name="cloud-register-consumer-feign-custom" target="1.8" />
       <module name="cloud-register-consumer-feign-fallback" target="1.8" />
@@ -46,6 +49,7 @@
       <module name="cloud-register-consumer-ribbon (1)" target="1.8" />
       <module name="cloud-register-consumer-ribbon-configcustom" target="1.8" />
       <module name="cloud-register-consumer-ribbon-hystrix" target="1.8" />
+      <module name="cloud-register-consumer-ribbon-hystrix-turbine-mq" target="1.8" />
       <module name="cloud-register-consumer-ribbon-without-eureka" target="1.8" />
       <module name="cloud-register-user" target="1.8" />
       <module name="cloud-register-user (1)" target="1.8" />

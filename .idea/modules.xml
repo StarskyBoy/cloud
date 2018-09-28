@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-discovery-eureka-cluster/cloud-discovery-eureka-cluster.iml" filepath="$PROJECT_DIR$/cloud-discovery-eureka-cluster/cloud-discovery-eureka-cluster.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-hystrix-dashboard/cloud-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/cloud-hystrix-dashboard/cloud-hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-hystrix-turbine/cloud-hystrix-turbine.iml" filepath="$PROJECT_DIR$/cloud-hystrix-turbine/cloud-hystrix-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-hystrix-turbine-mq/cloud-hystrix-turbine-mq.iml" filepath="$PROJECT_DIR$/cloud-hystrix-turbine-mq/cloud-hystrix-turbine-mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-feign/cloud-register-consumer-feign.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-feign/cloud-register-consumer-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-feign-custom/cloud-register-consumer-feign-custom.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-feign-custom/cloud-register-consumer-feign-custom.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/cloud-register-consumer-feign-hystrix-fallback.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/cloud-register-consumer-feign-hystrix-fallback.iml" />
@@ -17,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-ribbon/cloud-register-consumer-ribbon.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-ribbon/cloud-register-consumer-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-configcustom/cloud-register-consumer-ribbon-configcustom.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-ribbon-configcustom/cloud-register-consumer-ribbon-configcustom.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/cloud-register-consumer-ribbon-hystrix.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/cloud-register-consumer-ribbon-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix-turbine-mq/cloud-register-consumer-ribbon-hystrix-turbine-mq.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix-turbine-mq/cloud-register-consumer-ribbon-hystrix-turbine-mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-without-eureka/cloud-register-consumer-ribbon-without-eureka.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-ribbon-without-eureka/cloud-register-consumer-ribbon-without-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-user/cloud-register-user.iml" filepath="$PROJECT_DIR$/cloud-register-user/cloud-register-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-user-metadata/cloud-register-user-metadata.iml" filepath="$PROJECT_DIR$/cloud-register-user-metadata/cloud-register-user-metadata.iml" />
