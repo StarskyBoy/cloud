@@ -1,0 +1,20 @@
+server:
+  port: 8021
+
+spring:
+  application:
+    name: cloud-hystrix-turbine-mq
+  rabbitmq:
+    host: 10.1.42.9
+    port: 5672
+    username: admin
+    password: admin
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8001/eureka/
+  instance:
+    prefer-ip-address: true
+
+
