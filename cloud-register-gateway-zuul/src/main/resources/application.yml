@@ -1,0 +1,13 @@
+server:
+  port: 8023
+
+spring:
+  application:
+    name: cloud-register-gateway-zuul
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8001/eureka/
+
+
