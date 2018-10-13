@@ -89,6 +89,7 @@
         <module>cloud-register-gateway-zuul</module>
         <module>cloud-register-file-upload</module>
         <module>cloud-register-gateway-zuul-filter</module>
+        <module>cloud-register-user-trace</module>
     </modules>
 
     <build>
