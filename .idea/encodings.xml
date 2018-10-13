@@ -20,6 +20,9 @@
     <file url="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix-turbine-mq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-without-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-register-file-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-register-gateway-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-register-gateway-zuul-filter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-register-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-register-user-metadata" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-register-user-with-auth" charset="UTF-8" />

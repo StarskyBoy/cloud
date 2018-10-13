@@ -20,6 +20,9 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/cloud-register-consumer-ribbon-hystrix.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/cloud-register-consumer-ribbon-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix-turbine-mq/cloud-register-consumer-ribbon-hystrix-turbine-mq.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix-turbine-mq/cloud-register-consumer-ribbon-hystrix-turbine-mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-without-eureka/cloud-register-consumer-ribbon-without-eureka.iml" filepath="$PROJECT_DIR$/cloud-register-consumer-ribbon-without-eureka/cloud-register-consumer-ribbon-without-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-register-file-upload/cloud-register-file-upload.iml" filepath="$PROJECT_DIR$/cloud-register-file-upload/cloud-register-file-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-register-gateway-zuul/cloud-register-gateway-zuul.iml" filepath="$PROJECT_DIR$/cloud-register-gateway-zuul/cloud-register-gateway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-register-gateway-zuul-filter/cloud-register-gateway-zuul-filter.iml" filepath="$PROJECT_DIR$/cloud-register-gateway-zuul-filter/cloud-register-gateway-zuul-filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-user/cloud-register-user.iml" filepath="$PROJECT_DIR$/cloud-register-user/cloud-register-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-user-metadata/cloud-register-user-metadata.iml" filepath="$PROJECT_DIR$/cloud-register-user-metadata/cloud-register-user-metadata.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-user-with-auth/cloud-register-user-with-auth.iml" filepath="$PROJECT_DIR$/cloud-register-user-with-auth/cloud-register-user-with-auth.iml" />
