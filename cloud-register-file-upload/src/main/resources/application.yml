@@ -1,0 +1,25 @@
+server:
+  port: 8024
+
+spring:
+  application:
+    name: cloud-register-file-upload
+  http:
+    multipart:
+      max-file-size: 2000Mb  # Max file size，默认1M
+      max-request-size: 2500Mb  # Max request size，默认10M
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8001/eureka/
+
+# 打印日志
+logging:
+  level:
+    root: INFO
+    com.springms: DEBUG
+    com.netflix: debug
+
+
+
