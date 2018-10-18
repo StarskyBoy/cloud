@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>cloud.trace</groupId>
+	<artifactId>cloud-trace-zipkin-server</artifactId>
+	<version>${cloud.version}</version>
+	<packaging>jar</packaging>
+
+	<name>cloud-trace-zipkin-server</name>
+	<description>cloud-trace-zipkin-server</description>
+
+	<parent>
+		<groupId>com.midou.cloud</groupId>
+		<artifactId>cloud</artifactId>
+		<version>${cloud.version}</version>
+		<relativePath>../pom.xml</relativePath>
+    </parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>io.zipkin.java</groupId>
+			<artifactId>zipkin-autoconfigure-ui</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.zipkin.java</groupId>
+			<artifactId>zipkin-server</artifactId>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>

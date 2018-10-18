@@ -1,0 +1,24 @@
+server:
+  port: 8043
+
+spring:
+  application:
+    name: cloud-trace-zipkin-server
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8001/eureka/
+  instance:
+    prefer-ip-address: true
+
+###################################################################################################################
+# 简单讲解图中各个查询条件的含义：
+# Server Name表示服务名称，也就是各个微服务spring.application.name的值。
+# 第二列表示span的名称，all表示所有span，也可以选择指定span
+# Start time、End time，分别用于指定起始时间和截至时间
+# Duration表示持续时间，即span从创建到关闭所经历的时间
+# Limit表示查询几条数据。类似MySQL数据库中的limit关键词
+# Annotaitons Query,用于自定义查询条件
+###################################################################################################################
+
