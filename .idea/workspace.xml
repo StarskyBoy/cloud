@@ -2,25 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5409e0cd-0e30-4ec8-b60e-df74be45475a" name="Default" comment="cloud item">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_1_4_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zuul_1_4_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloud-register-file-upload-zuul/src/main/java/com/midou/cloud/file/upload/zuul/controller/FileUploadController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_4_3_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_2_3_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_autoconfigure_collector_rabbitmq_2_3_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_autoconfigure_ui_2_3_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_collector_rabbitmq_2_3_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_server_2_3_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_ui_2_3_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_2_1_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_amqp_client_2_1_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_kafka11_2_1_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_3_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_logstash_logback_logstash_logback_encoder_4_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_1_3_0_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zipkin_1_3_4_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cloud-register-user-trace-elk/src/main/resources/logback-spring.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/pom.xml" afterPath="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/pom.xml" />
       <change beforePath="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/RegisterConsumerFeignHystrixFallBackApplication.java" afterPath="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/RegisterConsumerFeignHystrixFallBackApplication.java" />
       <change beforePath="$PROJECT_DIR$/cloud-register-consumer-feign-logger/src/main/java/com/midou/cloud/register/consumer/feign/logger/dao/UserFeignClient.java" afterPath="$PROJECT_DIR$/cloud-register-consumer-feign-logger/src/main/java/com/midou/cloud/register/consumer/feign/logger/dao/UserFeignClient.java" />
-      <change beforePath="$PROJECT_DIR$/cloud-register-gateway-zuul/pom.xml" afterPath="$PROJECT_DIR$/cloud-register-gateway-zuul/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/cloud-register-gateway-zuul/src/main/java/com/midou/cloud/register/gateway/zuul/RegisterGatewayZuulApplication.java" afterPath="$PROJECT_DIR$/cloud-register-gateway-zuul/src/main/java/com/midou/cloud/register/gateway/zuul/RegisterGatewayZuulApplication.java" />
-      <change beforePath="$PROJECT_DIR$/cloud-register-gateway-zuul/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/cloud-register-gateway-zuul/src/main/resources/application.yml" />
       <change beforePath="$PROJECT_DIR$/cloud-register-user/pom.xml" afterPath="$PROJECT_DIR$/cloud-register-user/pom.xml" />
       <change beforePath="$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/controller/UserController.java" afterPath="$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/controller/UserController.java" />
       <change beforePath="$PROJECT_DIR$/cloud-simple-hello-world/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/cloud-simple-hello-world/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,6 +59,12 @@
     <ignored path="$PROJECT_DIR$/cloud-register-file-upload-zuul/target/" />
     <ignored path="$PROJECT_DIR$/cloud-register-file-upload/target/" />
     <ignored path="$PROJECT_DIR$/cloud-register-gateway-zuul-filter/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-register-user-trace/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-register-user-trace-elk/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-trace-zipkin-server/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-register-user-trace-zipkin/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-trace-zipkin-server-stream/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,68 +91,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="PreRequestLogFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-register-gateway-zuul-filter/src/main/java/com/midou/cloud/register/gateway/zuul/filter/filter/PreRequestLogFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterGatewayZuulFilterApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-register-gateway-zuul-filter/src/main/java/com/midou/cloud/register/gateway/zuul/filter/RegisterGatewayZuulFilterApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-register-gateway-zuul-filter/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterUserApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/RegisterUserApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-register-user/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="94" column="26" lean-forward="false" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+            <state relative-caret-position="359">
+              <caret line="95" column="55" lean-forward="false" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="42" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-elk/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-trace-zipkin-server-stream/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="34" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-discovery-eureka/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-trace-zipkin-server-stream/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -162,6 +179,7 @@
       <find>当前</find>
       <find>8021</find>
       <find>sent</find>
+      <find>file</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -185,32 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-logger/src/main/java/com/midou/cloud/register/consumer/feign/logger/dao/UserFeignClient.java" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/factory/entity/User.java" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/factory/RegisterConsumerFeignHystrixFallbackFactoryApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/factory/dao/fallback/FeignClientFallbackFactory.java" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/factory/Controller/ConsumerController.java" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback-factory/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/factory/dao/UserFeignClient.java" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-feign-hystrix-fallback/src/main/java/com/midou/cloud/register/consumer/feign/hystrix/fallback/RegisterConsumerFeignHystrixFallBackApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/java/com/midou/cloud/hystrix/dashboard/HystrixDashboardApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard/src/test/java/com/midou/cloud/hystrix/dashboard/HystrixDashboardApplicationTests.java" />
-        <option value="$PROJECT_DIR$/cloud-hystrix-turbine/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-hystrix-turbine/src/main/java/com/midou/cloud/hystrix/dashboard/HystrixTurbineApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-hystrix-turbine/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix-turbine-mq/src/main/java/com/midou/cloud/register/consumer/ribbon/hystrix/turbine/mq/RegisterConsumerRibbonHystrixTurbineMqApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix-turbine-mq/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix-turbine-mq/src/main/java/com/midou/cloud/register/consumer/ribbon/hystrix/turbine/mq/Controller/ConsumerController.java" />
-        <option value="$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix-turbine-mq/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-hystrix-turbine-mq/src/main/java/com/midou/cloud/hystrix/turbine/mq/HystrixTurbineMqApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-hystrix-turbine-mq/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-hystrix-turbine-mq/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-register-gateway-zuul/src/test/java/com/midou/cloud/register/gateway/zuul/RegisterGatewayZuulApplicationTests.java" />
-        <option value="$PROJECT_DIR$/cloud-simple-hello-world/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-file-upload-zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-file-upload-zuul/src/test/java/com/midou/cloud/file/upload/zuul/RegisterFileUploadZuulApplicationTests.java" />
         <option value="$PROJECT_DIR$/cloud-file-upload-zuul/pom.xml" />
@@ -220,14 +212,8 @@
         <option value="$PROJECT_DIR$/cloud-register-file-upload-zuul/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/cloud-register-file-upload-zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-register-file-upload-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-register-file-upload/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-register-file-upload/src/main/java/com/midou/cloud/file/upload/RegisterFileUploadApplication.java" />
         <option value="$PROJECT_DIR$/cloud-register-file-upload/src/test/java/com/midou/cloud/file/upload/RegisterFileUploadApplicationTests.java" />
-        <option value="$PROJECT_DIR$/cloud-register-file-upload/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-register-file-upload/src/main/java/com/midou/cloud/file/upload/controller/FileUploadController.java" />
-        <option value="$PROJECT_DIR$/cloud-register-gateway-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-register-gateway-zuul/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-register-gateway-zuul/src/main/java/com/midou/cloud/register/gateway/zuul/RegisterGatewayZuulApplication.java" />
         <option value="$PROJECT_DIR$/cloud-register-gateway-zuul-filter/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-register-gateway-zuul-filter/src/main/java/com/midou/cloud/register/gateway/ddddd/RegisterGatewayZuulApplication.java" />
         <option value="$PROJECT_DIR$/cloud-register-gateway-zuul-filter/src/main/java/com/midou/cloud/register/gateway/zuul/filter/RegisterGatewayZuulApplication.java" />
@@ -235,7 +221,39 @@
         <option value="$PROJECT_DIR$/cloud-register-gateway-zuul-filter/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-register-gateway-zuul-filter/src/main/java/com/midou/cloud/register/gateway/zuul/filter/RegisterGatewayZuulFilterApplication.java" />
         <option value="$PROJECT_DIR$/cloud-register-gateway-zuul-filter/src/main/java/com/midou/cloud/register/gateway/zuul/filter/filter/PreRequestLogFilter.java" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace/src/main/java/com/midou/cloud/register/user/trace/RegisterUserTraceApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace/src/test/java/com/midou/cloud/register/user/trace/RegisterUserTraceApplicationTests.java" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace-elk/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace-elk/src/main/java/com/midou/cloud/register/user/trace/elk/RegisterUserTraceElkApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace-elk/src/test/java/com/midou/cloud/register/user/trace/elk/RegisterUserTraceElkApplicationTests.java" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace-elk/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace-elk/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/cloud-trace-zipkin-server/src/test/java/com/midou/cloud/trace/zipkin/server/TraceZipkinServerApplicationTests.java" />
+        <option value="$PROJECT_DIR$/cloud-trace-zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace-zipkin/src/test/java/com/midou/cloud/register/user/trace/zipkin/RegisterUserTraceZipkinApplicationTests.java" />
+        <option value="$PROJECT_DIR$/cloud-trace-zipkin-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-trace-zipkin-server/src/main/java/com/midou/cloud/trace/zipkin/server/TraceZipkinServerApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace-zipkin/src/main/java/com/midou/cloud/register/user/trace/zipkin/RegisterUserTraceZipkinApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace-zipkin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-trace-zipkin-server-stream/src/main/java/com/midou/cloud/trace/zipkin/server/stream/TraceZipkinServerStreamApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-trace-zipkin-server-stream/src/test/java/com/midou/cloud/trace/zipkin/server/stream/TraceZipkinServerStreamApplicationTests.java" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/src/main/java/com/midou/cloud/register/user/trace/zipkin/stream/RegisterUserTraceZipkinStreamApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/src/test/java/com/midou/cloud/register/user/trace/zipkin/stream/RegisterUserTraceZipkinStreamApplicationTests.java" />
+        <option value="$PROJECT_DIR$/cloud-trace-zipkin-server-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-register-gateway-zuul/src/main/java/com/midou/cloud/register/gateway/zuul/RegisterGatewayZuulApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-register-file-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-file-upload/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-register-file-upload/src/main/java/com/midou/cloud/file/upload/controller/FileUploadController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-gateway-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-gateway-zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/cloud-trace-zipkin-server-stream/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -264,22 +282,22 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-register-gateway-zuul-filter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="cloud-register-gateway-zuul-filter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="60" />
-    <option name="y" value="146" />
-    <option name="width" value="1470" />
-    <option name="height" value="1023" />
+    <option name="x" value="44" />
+    <option name="y" value="24" />
+    <option name="width" value="1904" />
+    <option name="height" value="1010" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -334,8 +352,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -346,61 +363,92 @@
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-register-gateway-zuul-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-register-user-trace-zipkin-stream" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-register-user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-register-user" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-register-user-trace-zipkin-stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-register-user" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-register-user-trace-zipkin-stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-register-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-register-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-register-user" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-register-user-trace-zipkin-stream" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-simple-hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.hystrix:hystrix-core:1.5.12" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.hystrix:hystrix-core:1.5.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="hystrix-core-1.5.12.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.hystrix:hystrix-core:1.5.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="hystrix-core-1.5.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.reactivex:rxjava:1.2.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.reactivex:rxjava:1.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="rxjava-1.2.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.reactivex:rxjava:1.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="rxjava-1.2.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="rx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.reactivex:rxjava:1.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="rxjava-1.2.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="rx" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.reactivex:rxjava:1.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="rxjava-1.2.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="rx" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="operators" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -418,7 +466,7 @@
     <property name="project.structure.proportion" value="0.10303752" />
     <property name="project.structure.side.proportion" value="0.44090307" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-register-gateway-zuul-filter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cloud_test" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -428,6 +476,7 @@
       <recent name="com.midou.cloud.register.consumer.ribbon.hystrix.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\personal\spring cloud\code\cloud\cloud-register-user-trace-elk\src\main\resources" />
       <recent name="E:\personal\spring cloud\code\cloud\cloud-register-consumer-feign-logger\src\main\java\com\midou\cloud\register\consumer\feign\logger\config" />
       <recent name="E:\personal\spring cloud\code\cloud\cloud-discovery-eureka-cluster\src\main\resources" />
     </key>
@@ -448,9 +497,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.36132598" />
+    <option name="contentProportion" value="0.36685082" />
   </component>
-  <component name="RunManager" selected="Spring Boot.RegisterUserApplication">
+  <component name="RunManager" selected="Spring Boot.RegisterGatewayZuulApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -530,22 +579,24 @@
       <module name="cloud-hystrix-turbine-mq" />
       <envs />
     </configuration>
-    <configuration name="RegisterConsumerFeignApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="RegisterConsumerFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.consumer.feign.RegisterConsumerFeignApplication" />
-      <module name="cloud-register-consumer-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.consumer.feign.custom.RegisterConsumerFeignApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="cloud-register-consumer-feign-custom" />
       <envs />
     </configuration>
     <configuration name="RegisterConsumerFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.consumer.feign.custom.RegisterConsumerFeignApplication" />
-      <module name="cloud-register-consumer-feign-custom" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.consumer.feign.RegisterConsumerFeignApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="cloud-register-consumer-feign" />
       <envs />
     </configuration>
     <configuration name="RegisterConsumerFeignHystrixFallBackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.consumer.feign.hystrix.fallback.RegisterConsumerFeignHystrixFallBackApplication" />
-      <module name="cloud-register-consumer-feign-fallback" />
+      <module name="cloud-register-consumer-feign-hystrix-fallback" />
       <envs />
     </configuration>
     <configuration name="RegisterConsumerFeignHystrixFallBackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
@@ -572,12 +623,6 @@
       <module name="cloud-register-consumer-feign-logger" />
       <envs />
     </configuration>
-    <configuration name="RegisterConsumerFeignMApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.consumer.feign.RegisterConsumerFeignMApplication" />
-      <module name="cloud-register-consumer-feign-manual" />
-      <envs />
-    </configuration>
     <configuration name="RegisterConsumerFeignManualApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.consumer.feign.manual.RegisterConsumerFeignManualApplication" />
@@ -602,12 +647,6 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <module name="cloud-register-consumer-ribbon-configcustom" />
-      <envs />
-    </configuration>
-    <configuration name="RegisterConsumerRibbonHystrixApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.consumer.ribbon.hystrixrrrrrrrrrr.RegisterConsumerRibbonHystrixApplication" />
-      <module name="cloud-register-consumer-ribbon-hystrix-turbine-mq" />
       <envs />
     </configuration>
     <configuration name="RegisterConsumerRibbonHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -641,12 +680,6 @@
       <module name="cloud-register-file-upload" />
       <envs />
     </configuration>
-    <configuration name="RegisterFileUploadZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.file.upload.zuul.RegisterFileUploadZuulApplication" />
-      <module name="cloud-file-upload-zuul" />
-      <envs />
-    </configuration>
     <configuration name="RegisterGatewayZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -669,13 +702,8 @@
       <module name="cloud-register-gateway-zuul-filter" />
       <envs />
     </configuration>
-    <configuration name="RegisterUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.midou.cloud.register.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="RegisterUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.user.RegisterUserApplication" />
       <module name="cloud-register-user" />
       <envs />
@@ -686,10 +714,56 @@
       <module name="cloud-register-user-metadata" />
       <envs />
     </configuration>
+    <configuration name="RegisterUserTraceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.midou.cloud.register.user.trace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.user.trace.RegisterUserTraceApplication" />
+      <module name="cloud-register-user-trace" />
+      <envs />
+    </configuration>
+    <configuration name="RegisterUserTraceElkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.user.trace.elk.RegisterUserTraceElkApplication" />
+      <module name="cloud-register-user-trace-elk" />
+      <envs />
+    </configuration>
+    <configuration name="RegisterUserTraceZipkinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.user.trace.zipkin.RegisterUserTraceZipkinApplication" />
+      <module name="cloud-register-user-trace-zipkin" />
+      <envs />
+    </configuration>
+    <configuration name="RegisterUserTraceZipkinStreamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.user.trace.zipkin.stream.RegisterUserTraceZipkinStreamApplication" />
+      <module name="cloud-register-user-trace-zipkin-stream" />
+      <envs />
+    </configuration>
     <configuration name="RegisterUserWithAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.register.user.with.auth.RegisterUserWithAuthApplication" />
       <module name="cloud-register-user-with-auth" />
+      <envs />
+    </configuration>
+    <configuration name="TraceZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.midou.cloud.trace.zipkin.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.trace.zipkin.server.TraceZipkinServerApplication" />
+      <module name="cloud-trace-zipkin-server" />
+      <envs />
+    </configuration>
+    <configuration name="TraceZipkinServerStreamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.midou.cloud.trace.zipkin.server.stream.TraceZipkinServerStreamApplication" />
+      <module name="cloud-trace-zipkin-server-stream" />
       <envs />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -725,41 +799,43 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="26">
+    <list size="28">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerRibbonConfigCustomApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.DiscoveryEurekaClusterApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.RegisterUserMetadataApplication" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerRibbonWithoutEurekaApplication" />
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerRibbonApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignMApplication" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerMetadataApplication" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignApplication (1)" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.RegisterUserWithAuthApplication" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignApplication" />
-      <item index="10" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignHystrixFallBackApplication" />
-      <item index="11" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignManualApplication" />
-      <item index="12" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerRibbonHystrixApplication" />
-      <item index="13" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignLoggerApplication" />
-      <item index="14" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerRibbonHystrixApplication (1)" />
-      <item index="15" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerRibbonHystrixTurbineMqApplication" />
-      <item index="16" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignHystrixFallbackFactoryApplication" />
-      <item index="17" class="java.lang.String" itemvalue="Spring Boot.HystrixTurbineMqApplication" />
-      <item index="18" class="java.lang.String" itemvalue="Spring Boot.RegisterFileUploadZuulApplication" />
-      <item index="19" class="java.lang.String" itemvalue="Spring Boot.HystrixTurbineApplication" />
-      <item index="20" class="java.lang.String" itemvalue="Spring Boot.DiscoveryEurekaApplication" />
-      <item index="21" class="java.lang.String" itemvalue="Spring Boot.HystrixDashboardApplication" />
-      <item index="22" class="java.lang.String" itemvalue="Spring Boot.RegisterUserApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerMetadataApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.RegisterUserWithAuthApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignApplication" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignManualApplication" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerRibbonHystrixApplication" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignLoggerApplication" />
+      <item index="11" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerRibbonHystrixTurbineMqApplication" />
+      <item index="12" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignHystrixFallbackFactoryApplication" />
+      <item index="13" class="java.lang.String" itemvalue="Spring Boot.HystrixTurbineMqApplication" />
+      <item index="14" class="java.lang.String" itemvalue="Spring Boot.HystrixTurbineApplication" />
+      <item index="15" class="java.lang.String" itemvalue="Spring Boot.DiscoveryEurekaApplication" />
+      <item index="16" class="java.lang.String" itemvalue="Spring Boot.HystrixDashboardApplication" />
+      <item index="17" class="java.lang.String" itemvalue="Spring Boot.RegisterConsumerFeignHystrixFallBackApplication" />
+      <item index="18" class="java.lang.String" itemvalue="Spring Boot.RegisterUserTraceElkApplication" />
+      <item index="19" class="java.lang.String" itemvalue="Spring Boot.RegisterUserApplication" />
+      <item index="20" class="java.lang.String" itemvalue="Spring Boot.RegisterUserTraceZipkinApplication" />
+      <item index="21" class="java.lang.String" itemvalue="Spring Boot.TraceZipkinServerStreamApplication" />
+      <item index="22" class="java.lang.String" itemvalue="Spring Boot.RegisterUserTraceZipkinStreamApplication" />
       <item index="23" class="java.lang.String" itemvalue="Spring Boot.RegisterGatewayZuulApplication" />
       <item index="24" class="java.lang.String" itemvalue="Spring Boot.RegisterFileUploadApplication" />
       <item index="25" class="java.lang.String" itemvalue="Spring Boot.RegisterGatewayZuulFilterApplication" />
+      <item index="26" class="java.lang.String" itemvalue="Spring Boot.RegisterUserTraceApplication" />
+      <item index="27" class="java.lang.String" itemvalue="Spring Boot.TraceZipkinServerApplication" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.RegisterGatewayZuulFilterApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.RegisterUserApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.RegisterFileUploadApplication" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.RegisterGatewayZuulApplication" />
-        <item index="4" class="java.lang.String" itemvalue="Spring Boot.DiscoveryEurekaApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.RegisterGatewayZuulApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.RegisterFileUploadApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.TraceZipkinServerApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.RegisterUserTraceApplication" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.RegisterGatewayZuulFilterApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -838,7 +914,25 @@
       <workItem from="1539253517906" duration="5745000" />
       <workItem from="1539349814685" duration="5622000" />
       <workItem from="1539400577613" duration="9815000" />
-      <workItem from="1539433893201" duration="976000" />
+      <workItem from="1539433893201" duration="7888000" />
+      <workItem from="1539486634066" duration="11128000" />
+      <workItem from="1539524119577" duration="240000" />
+      <workItem from="1539524410767" duration="2469000" />
+      <workItem from="1539528936183" duration="1248000" />
+      <workItem from="1539562629602" duration="3214000" />
+      <workItem from="1539569463289" duration="1012000" />
+      <workItem from="1539599746058" duration="5210000" />
+      <workItem from="1539647898597" duration="3839000" />
+      <workItem from="1539656469272" duration="2812000" />
+      <workItem from="1539667483099" duration="3103000" />
+      <workItem from="1539671311663" duration="1018000" />
+      <workItem from="1539684339751" duration="1060000" />
+      <workItem from="1539687276073" duration="2449000" />
+      <workItem from="1539773306041" duration="1649000" />
+      <workItem from="1539854700792" duration="4678000" />
+      <workItem from="1539950386020" duration="1231000" />
+      <workItem from="1539999794893" duration="456000" />
+      <workItem from="1540013765807" duration="3942000" />
     </task>
     <servers />
   </component>
@@ -875,14 +969,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169833000" />
+    <option name="totallyTimeSpent" value="227503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1028" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.50431967" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17926566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41954643" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -895,12 +989,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.89349115" sideWeight="0.49568033" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4189349" sideWeight="0.49568033" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4189349" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5029586" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5218935" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30399567" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3088553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -920,7 +1014,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.50431967" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17926566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41954643" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -935,14 +1029,14 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5514793" sideWeight="0.49568033" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4189349" sideWeight="0.49568033" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4189349" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5029586" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5218935" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30399567" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28833693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46627218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -972,7 +1066,7 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -981,142 +1075,89 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-hystrix-turbine-mq/cloud-hystrix-turbine.iml" />
-    <entry file="file://$PROJECT_DIR$/cloud-hystrix-turbine-mq/.gitignore">
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-elk/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-hystrix-turbine-mq/mvnw.cmd">
+    <entry file="file://$PROJECT_DIR$/cloud-trace-zipkin-server/cloud-simple-hello-world.iml" />
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-with-auth/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix-turbine-mq/src/main/java/com/midou/cloud/register/consumer/ribbon/hystrix/turbine/mq/Controller/ConsumerController.java">
+    <entry file="file://$PROJECT_DIR$/cloud-trace-zipkin-server/src/test/java/com/midou/cloud/trace/zipkin/server/TraceZipkinServerApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        <state relative-caret-position="390">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix-turbine-mq/pom.xml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="40" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix-turbine-mq/src/main/java/com/midou/cloud/register/consumer/ribbon/hystrix/turbine/mq/RegisterConsumerRibbonHystrixTurbineMqApplication.java">
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin/cloud-register-user-trace.iml" />
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin/src/test/java/com/midou/cloud/register/user/trace/zipkin/RegisterUserTraceZipkinApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin/src/main/java/com/midou/cloud/register/user/trace/zipkin/RegisterUserTraceZipkinApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-trace-zipkin-server-stream/cloud-trace-zipkin-server.iml" />
+    <entry file="file://$PROJECT_DIR$/cloud-trace-zipkin-server-stream/src/test/java/com/midou/cloud/trace/zipkin/server/stream/TraceZipkinServerStreamApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix-turbine-mq/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-hystrix-turbine-mq/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-hystrix-turbine-mq/src/main/java/com/midou/cloud/hystrix/turbine/mq/HystrixTurbineMqApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-hystrix-turbine-mq/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-gateway-zuul/cloud-register-user.iml" />
-    <entry file="file://$PROJECT_DIR$/cloud-register-gateway-zuul/src/test/java/com/midou/cloud/register/gateway/zuul/RegisterGatewayZuulApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/cloud-register-user-trace-zipkin.iml" />
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/cloud-register-user-trace-zipkin (1).iml" />
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/cloud-trace-zipkin-server (1) (com.midou.cloud.register).iml" />
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/src/test/java/com/midou/cloud/register/user/trace/zipkin/stream/RegisterUserTraceZipkinStreamApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/java/com/midou/cloud/hystrix/dashboard/HystrixDashboardApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/mvnw.cmd">
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/cloud-register-user-trace-zipkin-stream.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/pom.xml">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="299">
+          <caret line="211" column="9" lean-forward="true" selection-start-line="211" selection-start-column="9" selection-end-line="211" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon/src/main/java/com/midou/cloud/register/consumer/ribbon/Controller/ConsumerController.java">
+    <entry file="file://$PROJECT_DIR$/cloud-trace-zipkin-server-stream/src/main/java/com/midou/cloud/trace/zipkin/server/stream/TraceZipkinServerStreamApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="35" />
+        <state relative-caret-position="300">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon/src/main/java/com/midou/cloud/register/consumer/ribbon/RegisterConsumerRibbonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-file-upload-zuul/cloud-register-gateway-zuul.iml" />
-    <entry file="file://$PROJECT_DIR$/cloud-simple-hello-world/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-file-upload-zuul/src/test/java/com/midou/cloud/file/upload/zuul/RegisterFileUploadZuulApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-file-upload-zuul/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/cloud-file-upload-zuul/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/cloud-file-upload-zuul/src/main/java/com/midou/cloud/file/upload/zuul/RegisterFileUploadZuulApplication.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-register-file-upload-zuul/cloud-file-upload-zuul.iml" />
-    <entry file="file://$PROJECT_DIR$/cloud-simple-hello-world/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-389">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新建文本文档.txt" />
-    <entry file="file://$PROJECT_DIR$/cloud-register-file-upload-zuul/src/main/resources/static/index.html" />
-    <entry file="file://$PROJECT_DIR$/cloud-register-file-upload-zuul/src/test/java/com/midou/cloud/file/upload/zuul/RegisterFileUploadZuulApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-register-file-upload-zuul/src/main/java/com/midou/cloud/file/upload/zuul/RegisterFileUploadZuulApplication.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-register-file-upload-zuul/src/main/java/com/midou/cloud/file/upload/zuul/controller/FileUploadController.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-register-file-upload-zuul/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/cloud-register-file-upload-zuul/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/cloud-register-file-upload/cloud-register-file-upload-zuul.iml" />
     <entry file="file://$PROJECT_DIR$/cloud-discovery-eureka/src/main/java/com/midou/cloud/eureka/discoveryeureka/DiscoveryEurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1124,70 +1165,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-file-upload/src/test/java/com/midou/cloud/file/upload/RegisterFileUploadApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/src/main/java/com/midou/cloud/register/user/trace/zipkin/stream/RegisterUserTraceZipkinStreamApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-file-upload/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cloud-register-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-hystrix/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-register-file-upload/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        <state relative-caret-position="270">
+          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-gateway-zuul/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-file-upload/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.0/rxjava-1.2.0-sources.jar!/rx/internal/operators/OnSubscribeDoOnEach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-register-gateway-zuul/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-gateway-zuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-gateway-zuul-filter/cloud-register-gateway-zuul.iml" />
-    <entry file="file://$PROJECT_DIR$/cloud-register-gateway-zuul-filter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-gateway-zuul-filter/src/test/java/com/midou/cloud/register/gateway/zuul/filter/RegisterGatewayZuulFilterApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-gateway-zuul/src/main/java/com/midou/cloud/register/gateway/zuul/RegisterGatewayZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-file-upload/src/main/java/com/midou/cloud/file/upload/controller/FileUploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        <state relative-caret-position="900">
+          <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1198,57 +1242,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-user/src/main/java/com/midou/cloud/register/user/RegisterUserApplication.java">
+    <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-gateway-zuul-filter/src/main/java/com/midou/cloud/register/gateway/zuul/filter/filter/PreRequestLogFilter.java">
+    <entry file="file://$PROJECT_DIR$/cloud-register-file-upload/src/main/java/com/midou/cloud/file/upload/controller/FileUploadController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
-          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-          </folding>
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-gateway-zuul-filter/src/main/java/com/midou/cloud/register/gateway/zuul/filter/RegisterGatewayZuulFilterApplication.java">
+    <entry file="file://$PROJECT_DIR$/cloud-register-gateway-zuul/src/main/java/com/midou/cloud/register/gateway/zuul/RegisterGatewayZuulApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-register-gateway-zuul-filter/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12-sources.jar!/com/netflix/hystrix/AbstractCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="92">
+          <caret line="818" column="0" lean-forward="false" selection-start-line="818" selection-start-column="0" selection-end-line="818" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-gateway-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-elk/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="38" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-trace-zipkin-server/src/main/java/com/midou/cloud/trace/zipkin/server/TraceZipkinServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-discovery-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="52" column="12" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="52" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-trace-zipkin-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="360">
+            <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-elk/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="39" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-trace-zipkin-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="21" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="42" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="94" column="26" lean-forward="false" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+        <state relative-caret-position="359">
+          <caret line="95" column="55" lean-forward="false" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-trace-zipkin-server-stream/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="34" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-trace-zipkin-server-stream/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-discovery-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-register-user-trace-elk/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1305,11 +1467,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|cloud-register-gateway-zuul-filter</last-edited>
+          <last-edited>cloud-register-user-trace-zipkin-stream</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.44090307" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

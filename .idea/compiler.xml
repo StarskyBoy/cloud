@@ -29,8 +29,15 @@
         <module name="cloud-register-gateway-zuul-filter" />
         <module name="cloud-register-user" />
         <module name="cloud-register-user-metadata" />
+        <module name="cloud-register-user-trace" />
+        <module name="cloud-register-user-trace-elk" />
+        <module name="cloud-register-user-trace-zipkin" />
+        <module name="cloud-register-user-trace-zipkin-stream" />
         <module name="cloud-register-user-with-auth" />
         <module name="cloud-simple-hello-world" />
+        <module name="cloud-trace-zipkin-server" />
+        <module name="cloud-trace-zipkin-server (1) (com.midou.cloud.register)" />
+        <module name="cloud-trace-zipkin-server-stream" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -62,8 +69,16 @@
       <module name="cloud-register-user" target="1.8" />
       <module name="cloud-register-user (1)" target="1.8" />
       <module name="cloud-register-user-metadata" target="1.8" />
+      <module name="cloud-register-user-trace" target="1.8" />
+      <module name="cloud-register-user-trace-elk" target="1.8" />
+      <module name="cloud-register-user-trace-zipkin" target="1.8" />
+      <module name="cloud-register-user-trace-zipkin (1)" target="1.8" />
+      <module name="cloud-register-user-trace-zipkin-stream" target="1.8" />
       <module name="cloud-register-user-with-auth" target="1.8" />
       <module name="cloud-simple-hello-world" target="1.8" />
+      <module name="cloud-trace-zipkin-server" target="1.8" />
+      <module name="cloud-trace-zipkin-server (1) (com.midou.cloud.register)" target="1.8" />
+      <module name="cloud-trace-zipkin-server-stream" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

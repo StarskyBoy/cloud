@@ -27,6 +27,12 @@
         <option value="$PROJECT_DIR$/cloud-register-file-upload-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-register-file-upload/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-register-gateway-zuul-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace-elk/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-trace-zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-trace-zipkin-server-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/pom.xml" />
       </list>
     </option>
   </component>

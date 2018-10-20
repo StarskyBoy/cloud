@@ -25,8 +25,14 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-register-gateway-zuul-filter/cloud-register-gateway-zuul-filter.iml" filepath="$PROJECT_DIR$/cloud-register-gateway-zuul-filter/cloud-register-gateway-zuul-filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-user/cloud-register-user.iml" filepath="$PROJECT_DIR$/cloud-register-user/cloud-register-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-user-metadata/cloud-register-user-metadata.iml" filepath="$PROJECT_DIR$/cloud-register-user-metadata/cloud-register-user-metadata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-register-user-trace/cloud-register-user-trace.iml" filepath="$PROJECT_DIR$/cloud-register-user-trace/cloud-register-user-trace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-register-user-trace-elk/cloud-register-user-trace-elk.iml" filepath="$PROJECT_DIR$/cloud-register-user-trace-elk/cloud-register-user-trace-elk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin/cloud-register-user-trace-zipkin.iml" filepath="$PROJECT_DIR$/cloud-register-user-trace-zipkin/cloud-register-user-trace-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/cloud-register-user-trace-zipkin-stream.iml" filepath="$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/cloud-register-user-trace-zipkin-stream.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-register-user-with-auth/cloud-register-user-with-auth.iml" filepath="$PROJECT_DIR$/cloud-register-user-with-auth/cloud-register-user-with-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-simple-hello-world/cloud-simple-hello-world.iml" filepath="$PROJECT_DIR$/cloud-simple-hello-world/cloud-simple-hello-world.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-trace-zipkin-server/cloud-trace-zipkin-server.iml" filepath="$PROJECT_DIR$/cloud-trace-zipkin-server/cloud-trace-zipkin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-trace-zipkin-server-stream/cloud-trace-zipkin-server-stream.iml" filepath="$PROJECT_DIR$/cloud-trace-zipkin-server-stream/cloud-trace-zipkin-server-stream.iml" />
     </modules>
   </component>
 </project>
