@@ -1,0 +1,18 @@
+server:
+  port: 8027
+
+spring:
+  application:
+    name: cloud-sidecar
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8001/eureka/
+  instance:
+    prefer-ip-address: true
+
+sidecar:
+  port: 8028                                               # Node.js微服务的端口
+  health-uri: http://127.0.0.1:8028/health.json           # Node.js微服务的健康检查URL
+
