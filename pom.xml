@@ -95,6 +95,10 @@
         <module>cloud-register-user-trace-zipkin</module>
         <module>cloud-register-user-trace-zipkin-stream</module>
         <module>cloud-trace-zipkin-server-stream</module>
+        <module>cloud-trace-zipkin-server-stream-elasticsearch</module>
+        <module>cloud-register-gateway-zuul-fallback</module>
+        <module>cloud-sidecar</module>
+        <module>cloud-sidecar-client-ribbon</module>
     </modules>
 
     <build>
