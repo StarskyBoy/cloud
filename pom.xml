@@ -50,6 +50,11 @@
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
         </dependency>
+        <!--web模块-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -99,6 +104,11 @@
         <module>cloud-register-gateway-zuul-fallback</module>
         <module>cloud-sidecar</module>
         <module>cloud-sidecar-client-ribbon</module>
+        <module>cloud-register-gateway-zuul-aggregation</module>
+        <module>cloud-config-server</module>
+        <module>cloud-config-client</module>
+        <module>cloud-config-server-refresh-cloud-bus</module>
+        <module>cloud-config-server-authenticating</module>
     </modules>
 
     <build>
