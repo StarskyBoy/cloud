@@ -1,0 +1,25 @@
+server:
+  port: 8053
+
+spring:
+  application:
+    name: cloud-config-server-authenticating
+  cloud:
+    config:
+      server:
+        git:
+          #git地址
+          uri: https://gitee.com/StarskyBoy/cloud-config-repo
+          #git用户名
+          username: ******
+          #git密码
+          password: ******
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: midou
+    password: midouJava
+
+
