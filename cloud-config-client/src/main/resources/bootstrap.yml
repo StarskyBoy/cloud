@@ -1,0 +1,36 @@
+server:
+  port: 8051
+
+spring:
+  application:
+   #对应Config Server所获取的配置文件的{application}
+    name: cloud-foo
+  cloud:
+    config:
+      #指定Config Server的地址，默认是http://127.0.0.1:8888
+      #本项目，此处端口注意切换
+      #8050端口是普通Config Server
+      #8052端口是bus refresh
+      #8053端口是authenticating
+      uri: http://192.168.43.171:8053/
+      #对应Config Server所获取的配置文件的{profile}
+      profile: dev
+       #指定Git仓库的分支，对应Config Server所获取的配置文件的{label}
+      label: master
+      #启动用户认证，取消注释
+#      username: midou
+#      password: midouJava
+
+#使用Spring Cloud Bus自动刷新配置，取消注释
+#  rabbitmq:
+#      host: 192.168.43.37
+#      port: 5672
+#      username: admin
+#      password: admin
+
+#关闭安全认证
+management:
+  security:
+    enabled: false
+
+#值得注意的是，以上属性配置在bootstrap.yml，而不是application.yml中。
