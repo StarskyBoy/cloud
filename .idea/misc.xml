@@ -33,6 +33,14 @@
         <option value="$PROJECT_DIR$/cloud-register-user-trace-zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-trace-zipkin-server-stream/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-gateway-zuul-fallback/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-sidecar/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-sidecar-client-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-register-gateway-zuul-aggregation/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-server-refresh-cloud-bus/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-server-authenticating/pom.xml" />
       </list>
     </option>
   </component>

@@ -6,6 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-config-client" />
+        <module name="cloud-config-server" />
+        <module name="cloud-config-server-authenticating" />
+        <module name="cloud-config-server-refresh-cloud-bus" />
         <module name="cloud-discovery-eureka" />
         <module name="cloud-discovery-eureka-cluster" />
         <module name="cloud-hystrix-dashboard" />
@@ -26,6 +30,8 @@
         <module name="cloud-register-consumer-ribbon-without-eureka" />
         <module name="cloud-register-file-upload" />
         <module name="cloud-register-gateway-zuul" />
+        <module name="cloud-register-gateway-zuul-aggregation" />
+        <module name="cloud-register-gateway-zuul-fallback" />
         <module name="cloud-register-gateway-zuul-filter" />
         <module name="cloud-register-user" />
         <module name="cloud-register-user-metadata" />
@@ -34,15 +40,25 @@
         <module name="cloud-register-user-trace-zipkin" />
         <module name="cloud-register-user-trace-zipkin-stream" />
         <module name="cloud-register-user-with-auth" />
+        <module name="cloud-sidecar" />
+        <module name="cloud-sidecar-client-ribbon" />
         <module name="cloud-simple-hello-world" />
         <module name="cloud-trace-zipkin-server" />
         <module name="cloud-trace-zipkin-server (1) (com.midou.cloud.register)" />
         <module name="cloud-trace-zipkin-server-stream" />
+        <module name="cloud-trace-zipkin-server-stream-elasticsearch" />
+        <module name="microservice-sidecar-client-ribbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud" target="1.8" />
+      <module name="cloud-config-client" target="1.8" />
+      <module name="cloud-config-server" target="1.8" />
+      <module name="cloud-config-server (1)" target="1.8" />
+      <module name="cloud-config-server-authenticating" target="1.8" />
+      <module name="cloud-config-server-refresh-cloud-bus" target="1.8" />
       <module name="cloud-discovery-eureka" target="1.8" />
+      <module name="cloud-discovery-eureka (1)" target="1.8" />
       <module name="cloud-discovery-eureka-cluster" target="1.8" />
       <module name="cloud-file-upload-zuul" target="1.8" />
       <module name="cloud-hystrix-dashboard" target="1.8" />
@@ -65,6 +81,8 @@
       <module name="cloud-register-file-upload" target="1.8" />
       <module name="cloud-register-file-upload-zuul" target="1.8" />
       <module name="cloud-register-gateway-zuul" target="1.8" />
+      <module name="cloud-register-gateway-zuul-aggregation" target="1.8" />
+      <module name="cloud-register-gateway-zuul-fallback" target="1.8" />
       <module name="cloud-register-gateway-zuul-filter" target="1.8" />
       <module name="cloud-register-user" target="1.8" />
       <module name="cloud-register-user (1)" target="1.8" />
@@ -74,11 +92,17 @@
       <module name="cloud-register-user-trace-zipkin" target="1.8" />
       <module name="cloud-register-user-trace-zipkin (1)" target="1.8" />
       <module name="cloud-register-user-trace-zipkin-stream" target="1.8" />
+      <module name="cloud-register-user-trace-zipkin-stream-es" target="1.8" />
       <module name="cloud-register-user-with-auth" target="1.8" />
+      <module name="cloud-sidecar" target="1.8" />
+      <module name="cloud-sidecar-client-ribbon" target="1.8" />
       <module name="cloud-simple-hello-world" target="1.8" />
       <module name="cloud-trace-zipkin-server" target="1.8" />
       <module name="cloud-trace-zipkin-server (1) (com.midou.cloud.register)" target="1.8" />
       <module name="cloud-trace-zipkin-server-stream" target="1.8" />
+      <module name="cloud-trace-zipkin-server-stream-elasticsearch" target="1.8" />
+      <module name="microservice-gateway-zuul-fallback" target="1.8" />
+      <module name="microservice-sidecar-client-ribbon" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

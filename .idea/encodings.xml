@@ -2,6 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-server-authenticating" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-server-refresh-cloud-bus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-discovery-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-discovery-eureka-cluster" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-discovery-eureka/src/main/resources/application.yml" charset="UTF-8" />
@@ -22,6 +26,8 @@
     <file url="file://$PROJECT_DIR$/cloud-register-consumer-ribbon-without-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-register-file-upload" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-register-gateway-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-register-gateway-zuul-aggregation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-register-gateway-zuul-fallback" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-register-gateway-zuul-filter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-register-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-register-user-metadata" charset="UTF-8" />
@@ -31,8 +37,11 @@
     <file url="file://$PROJECT_DIR$/cloud-register-user-trace-zipkin-stream" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-register-user-with-auth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-register-user/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-sidecar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-sidecar-client-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-simple-hello-world" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-trace-zipkin-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-trace-zipkin-server-stream" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-trace-zipkin-server-stream-elasticsearch" charset="UTF-8" />
   </component>
 </project>
